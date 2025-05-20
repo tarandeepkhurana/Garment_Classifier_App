@@ -19,7 +19,7 @@ The Garment Classifier App is a CNN Model that classifies 9 types of garments:
 
   This model achieved ~90% validation accuracy.
 
-- Due to the limitations of the custom CNN, the model was enhanced using VGG16 pretrained on ImageNet.
+- Due to the limitations of the custom CNN, the model was enhanced using VGG16 (Garment_Classifier (1).ipynb) pretrained on ImageNet.
    - **Modifications:**
       - Base VGG16 layers loaded with include_top=False
       - Only upper convolutional blocks were unfrozen and fine-tuned
